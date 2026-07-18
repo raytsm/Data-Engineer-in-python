@@ -17,3 +17,20 @@ print(ingredient_quantity)
 ingredient_quantity = 1
 print(ingredient_quantity)
 # 1
+
+new_ingredient_quantity = 1.5
+
+is_in_stock = True
+is_in_stock = False
+
+type()
+print(type(is_in_stock))
+# <class 'bool'>
+
+print(2 + 1.5)
+# 3.5
+
+print("Hi" + "There")
+# "HiThere"
+print("Hi" * 3)
+# "HiHiHi"
