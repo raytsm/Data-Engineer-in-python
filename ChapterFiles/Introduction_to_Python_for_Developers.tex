@@ -138,7 +138,91 @@ Work like regular math
 
 \section{Working with Data Types}
 \subsection{Working with strings}
+\subsubsection{Multi-line strings}
+\inputminted[
+    firstline=38,
+    lastline=43
+]{Python}{CodeFiles/IntroToPythonForDevelopers.py}
+\begin{itemize}
+    \item \hl{"""text"""}: Mutli-line strings
+    \begin{itemize}
+        \item Enhance readability
+        \item Used for documentation
+        \item Longer text such as instructions or error messages
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Methods}
+\begin{itemize}
+    \item Method = a function that is only availabe to a specific data type
+    \item \hl{str} Methods
+    \begin{itemize}
+        \item Standardizing input, or transforming text
+    \end{itemize}
+    \inputminted[
+    firstline=45,
+    lastline=46,
+    highlightlines=46
+]{Python}{CodeFiles/IntroToPythonForDevelopers.py}
+\end{itemize}
+
+\subsubsection{Replacing parts of strings}
+\inputminted[
+    firstline=48,
+    lastline=52,
+    highlightlines=50
+]{Python}{CodeFiles/IntroToPythonForDevelopers.py}
+
+\subsubsection{Changing case}
+\begin{itemize}
+    \item Standardize user inputs like emails
+    \inputminted[
+    firstline=54,
+    lastline=63,
+    highlightlines={56, 61}
+]{Python}{CodeFiles/IntroToPythonForDevelopers.py}
+\end{itemize}
+
 \subsection{Lists}
+\begin{itemize}
+    \item \textbf{List} = store multiple values in a single variables
+    \item Can contain any combination of data types
+    \item Lists are ordered and indexed
+    \inputminted[
+    firstline=65,
+    lastline=76,
+    highlightlines={73, 76}
+]{Python}{CodeFiles/IntroToPythonForDevelopers.py}
+\end{itemize}
+
+\subsubsection{Checking the data type}
+    \inputminted[
+    firstline=78,
+    lastline=80
+]{Python}{CodeFiles/IntroToPythonForDevelopers.py}
+
+\subsubsection{Accessing elements of a List}
+\begin{itemize}
+    \item List = []
+    \item Access an element = a\_list[index]
+\end{itemize}
+        \inputminted[
+    firstline=83,
+    lastline=91
+]{Python}{CodeFiles/IntroToPythonForDevelopers.py}
+
+\subsubsection{Finding the last element in a list}
+        \inputminted[
+    firstline=93,
+    lastline=99,
+    highlightlines=98
+]{Python}{CodeFiles/IntroToPythonForDevelopers.py}
+
+\subsubsection{Accessing multiple elements}
+\begin{itemize}
+    \item \hl{[first_element:last_element + 1]}
+\end{itemize}
+
 \subsection{Dictionaries}
 \subsection{Sets and tuples}
 
